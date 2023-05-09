@@ -66,6 +66,6 @@ jpeg-to-png.py *.jpg
 
 ## References
 
-- For list of possible `-dbname` values that are also in image folder names, see [here](https://github.com/libretro/libretro-database/tree/master/rdb).
+- For list of possible `-dbname` values that are also in image folder names, see [here](https://github.com/libretro/libretro-database/tree/master/rdb). In `-dbname` the `.rdb` extension must be replaced with `.lpl`. In image folder names the `.rdb` extension must be removed.
 - Core file names depend on platform. Here are file names for [Linux 64-bit](https://buildbot.libretro.com/nightly/linux/x86_64/latest/), [Windows 64-bit](https://buildbot.libretro.com/nightly/windows/x86_64/latest/) and [Android 64-bit](https://buildbot.libretro.com/nightly/android/latest/arm64-v8a/). The `.zip` extension must be removed.
 - For values of `default_core_name` header, see `display_name` field in [core info files](https://github.com/libretro/libretro-core-info/tree/master).
